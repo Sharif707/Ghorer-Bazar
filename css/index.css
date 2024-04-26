@@ -1,0 +1,23 @@
+
+/* Browser reset code */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  /* Browser reset code ends here */
